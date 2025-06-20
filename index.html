@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
+     <link rel="shortcut icon" href="https://media.istockphoto.com/id/695578338/fr/photo/ordinateur-cartelle-colorate-documenti.webp?a=1&b=1&s=612x612&w=0&k=20&c=phFxdOQqhOuo-KmWe1SR1cs8hKPYzzcV5f7ms85YUA8="  type="image/x-icon" width="10px" length="1px">
+</head>
+    <!-- lien de css externe -->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- import de lien de font  de google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Barre de navigation -->
-    <nav>
-        <ul>
+    <nav class="barrenav">
+        <img src="https://media.istockphoto.com/id/695578338/fr/photo/ordinateur-cartelle-colorate-documenti.webp?a=1&b=1&s=612x612&w=0&k=20&c=phFxdOQqhOuo-KmWe1SR1cs8hKPYzzcV5f7ms85YUA8=" alt="logo">
+        <ul class="list">
             <li><a href="accueil.html">Accueil</a></li>
             <li><a href="apropos.html">À propos</a></li>
             <li><a href="travail.html">Travail</a></li>
@@ -18,19 +29,26 @@
     </nav>
 
     <!-- Section Accueil -->
+    <center>
     <section id="accueil">
-        <h1>Bonjour, je suis MAY JOMNI</h1>
-        <p>Ingénieur en téchnologies avancées et Développeur web passionné par la création de sites modernes.</p>
+        <h1> MAY JOMNI</h1>
+        <h2>software developer</h2>
+        <img src="assets/WhatsApp Image 2024-11-29 à 15.42.19_a18c7c90.jpg"  alt="mon photo" width="300px" height="300px">
+       
+        <p>Je suis un ingénieur en technologies avancées et un développeur web passionné par la création de sites modernes et innovants. Avec une expertise en programmation et une approche axée sur les solutions, je transforme des idées en applications performantes et esthétiques. Mon objectif est de concevoir des expériences digitales fluides et intuitives, en combinant les dernières technologies avec un design élégant. Toujours à l'affût des nouvelles tendances, j'aime relever des défis techniques et contribuer à des projets ambitieux</p>
         <video width="400" controls>
-            <source src="VDO.mp4" type="video/mp4">
+            <source src="/assets/VDO.mp4" type="video/mp4">
         </video>
     </section>
+    </center>
 
     <!-- Section À propos -->
     <section id="apropos">
-        <h2>À propos de moi</h2>
+        <h3 >A PROPOS:</h3>
+        
         <p>Je suis un développeur basé à Tunis, spécialisé en HTML/CSS et JavaScript.</p>
-        <h3>Compétences :</h3>
+        
+        <h3>COMPETENCES :</h3>
         <ul>
             <li>Front-end : HTML</li>
             <li>Back-end : Python</li>
@@ -38,9 +56,10 @@
     </section>
 
     <!-- Section Travail -->
-    <section id="travail">
-        <h2>Mes projets</h2>
-        <table border="1">
+    <section >
+        <h3 id="monprojet">Mes projets</h3>
+        <center>
+        <table class:padding border="1" >
             <tr>
                 <th>Projet</th>
                 <th>Technologies</th>
@@ -54,20 +73,23 @@
                 <td>HTML/CSS, JavaScript</td>
             </tr>
         </table>
+        </center>
     </section>
 
     <!-- Section CV -->
-    <section id="cv">
-        <h2>Mon CV</h2>
-        <p>Téléchargez mon CV : <a href="CAP2.PNG" download>PDF</a></p>
+    <section >
+        <h3>Mon CV</h3>
+        <p>Téléchargez mon CV : <a href="./assets/CAP2.PNG" download>PDF</a></p>
+        <center>
         <audio controls>
-            <source src="miracle-11151.mp3.crdownload" type="audio/mpeg">
+            <source src="/assets/miracle-11151.mp3.crdownload" type="audio/mpeg">
         </audio>
+        </center>
     </section>
 
     <!-- Section Contact -->
     <section id="contact">
-        <h2>Contactez-moi</h2>
+        <h3>Contactez-moi</h3>
         <form>
             <label>Nom :</label>
             <input type="text" placeholder="Votre nom"><br>

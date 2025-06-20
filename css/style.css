@@ -1,0 +1,111 @@
+/*IMPORT DE LIEN DE GOOGLE FONT  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+*{
+    background-color: aqua;
+}*/
+/* ******************************************************************** */
+body{
+    background-color:rgb(255, 255, 255) ;
+    font-weight: 4000;
+    margin: 0;
+    padding: 0;
+}
+/*barre de navigation */
+.barrenav{
+background-color: rgb(255, 255, 255);
+display: block;
+margin:auto;
+text-align: center;
+}
+.list {
+    background-color: rgb(0, 0, 0); 
+    display: block;
+    margin-left: 50px;
+    padding: 100; /* Ajout important pour enlever le padding par défaut */
+}
+
+.list li {
+    display: inline-block; /* Au lieu de juste "inline" */
+    margin-right: 100px; /* Espacement entre les éléments */
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.list a{
+    text-decoration: none;
+    transition: all 0.2s;
+    color: blue;
+}
+.list a:hover{
+    font-size:x-large;
+    color:rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 2px;
+
+}
+/* ********************************************************************* */
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+h1 ~ p {
+    font-weight: bold;
+    background-color:rgba(47, 95, 226, 0.521);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px
+    
+    
+}
+
+h3 ~ p {
+    font-weight: bold;
+    background-color:rgba(47, 95, 226, 0.521);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+.padding{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+img , video {
+    
+        border-radius: 15px;
+}
+first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+h3{
+    color: blue;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+h2{
+    color: rgb(255, 0, 43);
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* ********************************** */
+/* sectin a propos */
+#apropos{
+    text-align: center;
+     font-family:"Roboto Condensed", sans-serif;
+    
+}
+#monprojet h3{
+    color: blue;
+     font-family: "Roboto Condensed", sans-serif;
+
+
+}
